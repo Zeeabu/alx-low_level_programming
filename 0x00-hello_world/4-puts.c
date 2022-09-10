@@ -3,6 +3,8 @@
  /**
   * main - Printing
   *
+  *Description: using the main function
+  *This program prints "Programming is like a multilingual puzzle
   * Return: Always 0 (Success)
   */
 int main(void)
