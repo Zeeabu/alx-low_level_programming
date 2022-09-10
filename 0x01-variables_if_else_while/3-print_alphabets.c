@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *main - Print lower and uppercase
+ *main - 3-print_alphabets.c
  *
  *Return: Always (Success)
  */
@@ -13,7 +13,7 @@ putchar(ch);
 }
 for (ch = 'A'; ch <= 'Z'; ch++)
 {
-putchar(ch)
+putchar(ch);
 }
 putchar('\n');
 return (0);
