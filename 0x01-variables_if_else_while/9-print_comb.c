@@ -2,17 +2,16 @@
 /**
  *main - 9-print_comb.c
  *
- *Return: Always (Success)
+ *Return: Always 0 (Success)
  */
 int main(void)
 {
-int c;
-for (c = '0'; c <= '9'; c++)
+int num;
+for (num = 0; num <= 9; num++)
 {
-putchar(c);
-}
-if (c != '9')
-{
+putchar((num % 10) + '0');
+if  (num == 9)
+continue;
 putchar(',');
 putchar(' ');
 }
