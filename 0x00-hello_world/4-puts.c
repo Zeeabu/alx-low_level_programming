@@ -1,7 +1,7 @@
  #include <stdio.h>
 
  /**
-  * main - Printing
+  * main - 4-puts.c
   *
   *Description: using the main function
   *This program prints "Programming is like a multilingual puzzle
@@ -9,7 +9,7 @@
   */
 int main(void)
 {
-puts("\"Programming is like building a multilingual puzzle");
+puts("\"Programming is like building a multilingual puzzle\n");
 return (0);
 }
 
