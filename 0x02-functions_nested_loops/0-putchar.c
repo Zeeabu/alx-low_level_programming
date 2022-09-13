@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.h"
+
 /**
  *main - A program that prints Putchar
  *Return: Always 0 (Success)
