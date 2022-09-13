@@ -1,4 +1,4 @@
-#include <main.h>
+#include <stdio.h>
 /**
  *Print_alphabet - Prints alpabets in lower case and newline
  *
