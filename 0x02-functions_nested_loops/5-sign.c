@@ -1,24 +1,25 @@
-#include <main.h>
+#include "main.h"
 /**
- *5_sign - function that prints the sign of a number
- *@n: number input
- *Return: if n is less than 0, return -1, if n is greater than 0, return +1, otherwise, return 0
+ *print_sign - function that prints the sign of a number
+ *@n: is the int that will be use for the argument of the function
+ *Return: 0
  */
-int print_sign(int n);
+int print_sign(int n)
 {
 if (n > 0)
 {
 _putchar('+');
-return (0);
+return (1);
 }
-else if (n == 0)
-{
-_putchar(0);
-return (0);
-}
-else
+else if (n < 0)
 {
 _putchar('-');
 return (-1);
+}
+else
+{
+_putchar('0');
+return (0);
+}
 }
 }
