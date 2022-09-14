@@ -1,18 +1,19 @@
 #include "main.h"
 /**
- *Print alphabet - void print alphabets 10x
+ *print_alphabet_x10 - void print alphabets 10x
  *
  *Return: Always 0 (Success)
  */
 void print_alphabet_x10(void)
 {
-_putchar n, so;
-for (n = 'a'; n <= 'z'; n++)
-{_putcharn(n);
+char c, i;
+for (1 = '0'; i <= '9'; i++)
+{
+for (c = 'a'; c <= 'z'; c++)
+{
+_putchar(c);
 }
-so = 0
-while (so < 10)
-so++;
 _putchar('\n');
+}
 }
 
