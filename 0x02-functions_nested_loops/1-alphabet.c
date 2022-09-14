@@ -1,10 +1,10 @@
-#include <stdio.h>
+#include "main.h"
 /**
- *Print_alphabet - Prints alpabets in lower case and newline
+ *print_alphabet - Prints alpabets in lower case and newline
  *
  *Return: Always 0 (Success)
  */
-void print_alphabet(void);
+void print_alphabet(void)
 {
 int n;
 for (n = 'a'; n <= 'z'; n++)
