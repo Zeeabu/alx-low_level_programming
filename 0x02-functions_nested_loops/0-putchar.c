@@ -1,7 +1,7 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- *main - A program that prints Putchar
+ *main - A program that prints putchar
  *Return: Always 0
  */
 int main(void)
