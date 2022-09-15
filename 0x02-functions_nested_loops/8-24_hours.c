@@ -27,5 +27,6 @@ minutes++;
 _putchar('\n');
 }
 hours++;
-minuts = 0;
-}}
+minutes = 0;
+}
+}
