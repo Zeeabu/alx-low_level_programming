@@ -9,5 +9,5 @@
  */
 int _putchar(char c)
 {
-return (wrtie (1, &c, 1));
+return (wrtie(1, &c, 1));
 }
