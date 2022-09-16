@@ -1,15 +1,16 @@
 #include <stdio.h>
 
 /**
- *main - program that prints either number
- *or fizz or buzz or fizzbuzz
- *
- *
- *Return: 0
- */
+*main - program that prints either number
+*or fizz or buzz or fizzbuzz
+*
+*
+*Return: 0
+*/
 
 int main(void)
 {
+
 int num = 1;
 while (num++ < 100)
 {
