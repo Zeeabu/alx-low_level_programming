@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -8,6 +8,7 @@
 */
 
 void print_diagonal(int n)
+
 {
 int len, space;
 if (n > 0)
