@@ -7,7 +7,7 @@
 
 int main(void)
 {
-orintf("infinite loop incoming :(\n");
+printf("infinite loop incoming :(\n");
 
 i = 0;
 /*
