@@ -25,7 +25,7 @@ if (number % inc == 0)
 number /= inc;
 }
 }
-printf("%1d\n", inc);
+printf("%d\n", number);
 return (0);
 }
 }
