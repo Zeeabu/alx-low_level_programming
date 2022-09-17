@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
@@ -12,28 +11,24 @@
 int main(void)
 {
 
-int num = 1;
-while (num++ < 100)
+int i;
+
+for (i = 1; i <= 100; i++)
+if (i % 15 == 0)
 {
-if ((num % 3 == 0) && (num % 5 == 0))
-{
-printf("FizzBuzz");
+printf("FizzBuzz\t");
 }
-else if ((num % 3) == 0)
+else if ((i % 3) == 0)
 {
-printf("Fizz");
+printf("Fizz\t");
 }
-else if ((num % 5) == 0)
+else if ((i % 5) == 0)
 {
-if (num != 100)
-{
-printf("Buzz");
+printf("Buzz\t");
 }
 else
 {
-printf("Buzz");
+printf("%d\t", i);
 }
-putchar('\n');
-}
-}
+return (0);
 }
