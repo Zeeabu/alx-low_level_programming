@@ -1,28 +1,12 @@
 #include "main.h"
 
 /**
-*_strlen - returns the length of a string
-*@s: string
-*
-*Return: returns length as integer
+* cap_string - function that capitalise first character of a word
+* @str: string parameter to capitalise
+* Return: returns the capitalise string
 */
 
-int _strlen(char *s)
-{
-int len = 0;
-while (*(s + len) != '\0')
-len++;
-return (len);
-}
-
-/**
-*cap_string - function that capitalizes first character of a word
-*@str: string to capitalise
-*
-*Return: returns the capitalise string
-*/
-
-char *cap_string(char *)
+char *cap_string(char *str)
 {
 int index = 0;
 while (str[++index])
@@ -46,3 +30,4 @@ if (str[index - 1] == ' ' ||
 }
 return (str);
 }
+
