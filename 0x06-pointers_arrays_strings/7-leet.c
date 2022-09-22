@@ -19,8 +19,8 @@ return (str);
 }
 
 /**
-* trnasform - helper function to map a letter with its leet encoding
-* @X: char to be encoded
+* transform - helper function to map a letter with its leet encoding
+* @x: char to be encoded
 * Return: the encoded char
 */
 
