@@ -2,7 +2,7 @@
 
 /**
  * _strlen_recursion - a function that returns the length of a string
- *@s: string to print
+ *@s: string to be used
  *
  *Return:the length of the string
  */
