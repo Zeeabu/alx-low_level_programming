@@ -49,7 +49,7 @@ sum += str_to_int;
 }
 else
 {
-printf("error\n");
+printf("Error\n");
 return (1);
 }
 count++;

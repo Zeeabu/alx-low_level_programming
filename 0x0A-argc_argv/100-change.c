@@ -16,7 +16,7 @@ position = total = change = aux = 0;
 
 if (argc != 2)
 {
-printf("error\n");
+printf("Error\n");
 return (1);
 }
 
