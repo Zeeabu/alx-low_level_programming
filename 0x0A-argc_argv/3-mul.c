@@ -7,7 +7,7 @@
  *@argc: count argument
  *@argv: Argument vector
  *
- *Return: 0 if true and 1 if false
+ *Return: 0 if true, 1 if false
  */
 
 int main(int argc, char *argv[])
@@ -18,8 +18,8 @@ if (argc == 1)
 a = atoi(argv[1]);
 b = atoi(argv[2]);
 printf("%d\n", a *b);
-return (0);
+return (a);
 }
 printf("error\n");
-return (1);
+return (b);
 }
