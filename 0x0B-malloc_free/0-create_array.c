@@ -24,11 +24,13 @@ if (buffer == 0)
 return (NULL);
 }
 else
+{
 position = 0;
 while (position < size)
 {
 *(buffer + position) = c;
 position++;
 return (buffer);
+}
 }
 }
