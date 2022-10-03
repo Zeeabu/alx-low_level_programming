@@ -30,7 +30,8 @@ while (position < size)
 {
 *(buffer + position) = c;
 position++;
+}
 return (buffer);
 }
 }
-}
+
