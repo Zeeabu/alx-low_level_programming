@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *_strlen - to count the array
- *@s: array of element
- *Return: 1
+ * _strlen - to count the array
+ * @s: array of element
+ * Return: 1
  */
 
 int _strlen(char *s)
@@ -18,10 +18,10 @@ return (i);
 }
 
 /**
- *_strcpy - copy array
- *@src: array of element
- *@dest: dest array
- *Return: dest
+ * _strcpy - copy array
+ * @src: array of element
+ * @dest: dest array
+ * Return: dest
  */
 
 char *_strcpy(char *dest, char *src)
@@ -37,9 +37,9 @@ return (dest);
 }
 
 /**
- *_strdup - array to  print a string
- *@str: array of elements
- *Return: pointer
+ * _strdup - array to  print a string
+ * @str: array of elements
+ * Return: pointer
  */
 
 char *_strdup(char *str)
