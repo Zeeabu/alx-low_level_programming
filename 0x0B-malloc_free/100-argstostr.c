@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *len - returns length of string
- *@str: string to be counted
- *Return: returns the length
+ * len - returns length of string
+ * @str: string to be counted
+ * Return: returns the length
  */
 
 int len(char *str)
@@ -18,11 +18,11 @@ return (len);
 }
 
 /**
- *argstostr - A function that concatenates all the arguments of a program
- *@ac: count of args pass to the function
- *@av: array of arguments
+ * argstostr - A function that concatenates all the arguments of a program
+ * @ac: count of args passed to the function
+ * @av: array of arguments
  *
- *Return: pointer to the new string
+ * Return: pointer to the new string
  */
 
 char *argstostr(int ac, char **av)
@@ -45,7 +45,7 @@ new_string(temp + j) = '\n';
 temp += (j + 1);
 k++;
 }
-new_string[temp] = '\0';
+new_string(temp) = '\0';
 }
 else
 {

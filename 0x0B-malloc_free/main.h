@@ -19,7 +19,7 @@ char *argstostr(int ac, char **av);
 char **strtow(char *str);
 char *_strcpy(char *dest, char *src);
 int _strlen(char *s);
-
+char *new_string();
 
 #endif /* MAIN_H */
 
