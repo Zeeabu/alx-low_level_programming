@@ -25,22 +25,22 @@ return (len);
  *Return: number of words
  */
 
-int num_words(char str)
+int num_words(char *str)
 {
 int i = 0, words = 0;
 while (i <= len(str))
 {
-if ((str[i] != ' ') && (str[i] != '\0'))
+if ((str(i) != ' ') && (str(i) != '\0'))
 {
 i++;
 }
-else if (((str[i] == ' ') || (str[i] == '\0')) && i && (str[i - 1] != ' '))
+else if (((str[i] == ' ') || (str(i) == '\0')) && i && (str(i - 1) != ' '))
 {
 words += 1;
 }
 else
 {
-i++
+i++;
 }
 }
 return (words);
@@ -74,10 +74,10 @@ if (split[j] != NULL)
 {
 while (temp < size)
 {
-split[j][temp] = str([i - size] + temp);
+split[j][temp] = str((i - size) + temp);
 temp++;
 }
-split[j][temp] = '\0'
+split[j][temp] = '\0';
 size = temp = 0;
 j++;
 }

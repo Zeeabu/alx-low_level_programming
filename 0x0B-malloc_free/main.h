@@ -20,6 +20,8 @@ char **strtow(char *str);
 char *_strcpy(char *dest, char *src);
 int _strlen(char *s);
 char *new_string();
+int num_words(char *str);
+int len(char *str);
 
 #endif /* MAIN_H */
 
