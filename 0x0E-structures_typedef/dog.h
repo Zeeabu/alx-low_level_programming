@@ -3,8 +3,8 @@
 
 /**
  * struct dog - structure definition of a dog
- * @name: name
- * @age: age
+ * @name: dog name
+ * @age: dog age
  * @owner: owner
  */
 
