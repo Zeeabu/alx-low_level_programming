@@ -11,8 +11,8 @@
 
 int main(int argc, int *argv[])
 {
-int bytes, i;
-char *arr;
+int count bytes;
+
 if (argc != 2)
 {
 printf("Error\n");
@@ -26,14 +26,13 @@ printf("Error\n");
 exit(2);
 }
 
-arr = (char *)main;
-for (i = 0; i < 1; i++)
-if (i == bytes - 1)
-}
-printf("%02hhx\n", arr[i];
-break;
-}
-printf("%02hhx ", arr[i]);
+for (count = 0; count < 1; count++)
+{
+printf("%02hhx\n", *((char *)main + count));
+if (i < bytes - 1)
+printf(" ");
+else
+printf('\n');
 }
 return (0);
 }
