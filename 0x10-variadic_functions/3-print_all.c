@@ -22,6 +22,7 @@ j = 0;
 while (t_arg[j])
 {
 if (format[i] == t_arg[j] && c)
+{
 printf(", ");
 break;
 } j++;
@@ -46,9 +47,8 @@ break;
 }
 printf("%s", str);
 break;
+} i++;
 }
-i++;
-{
 printf("\n"), va_end(valist);
 }
-}
+
