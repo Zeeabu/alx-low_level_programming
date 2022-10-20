@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /**
- * hare - Prints a string before the
- *         main function is executed
+ * first - function executed before main
+ * Return: no return
  */
 
-void hare(void)
+void __attribute__ ((constructor)) first()
 {
-	printf("You're beat! and yet, you must allow,");
-	printf("\nI bore my house upon my back!)\n");
+	printf("You're beat! and yet, you must allow");
+	printf(",\nI bore my house upon my back!)\n");
 }
 
