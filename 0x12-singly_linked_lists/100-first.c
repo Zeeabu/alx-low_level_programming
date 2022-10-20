@@ -2,14 +2,13 @@
 #include <stdio.h>
 
 /**
- * main - Prints a string of words
- * Return: Always 0
+ * hare - Prints a string of words
+ *         main function is executed
  */
 
-int main(void)
+void hare(void)
 {
 printf("You're beat! and yet, you must allow,\n");
 printf("I bore my house upon my back!\n");
-return (0);
 }
 
