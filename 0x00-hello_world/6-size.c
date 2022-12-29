@@ -3,7 +3,7 @@
 /**
  * main - Print size is not granduer
  *
- *Return: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
